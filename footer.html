@@ -1,4 +1,3 @@
-<!-- footer here -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +9,17 @@
         * {
             font-family: "Poppins", sans-serif;
         }
+        footer {
+            background-color: #FFFCEF;
+        }
         section {
             padding: 60px;
         }
-        footer_container {
+        #footer_container {
+            flex-direction: row; 
+            justify-content: flex-start; 
+            align-items: flex-start; 
+            gap: 40px; 
             display: flex;
         }
         article {
@@ -26,7 +32,6 @@
             font-size: 48px;
             justify-content: center;
             align-items: center;
-            align-self: center;
             margin: 20px 12px 8px 0px;
         }
         a {
@@ -34,19 +39,23 @@
         }
         p {
             font-size: 16px;
+            font-style: normal;
         }
         .judul_produk {
             font-size: 16px;
             text-transform: capitalize;
         }
+        #alamat {
+            width: 300px;
+        }
         #media_sosial i {
             font-size: 16px;
         }
-        #media_sosial section {
+        #media_sosial article {
             padding: 8px 0px;
         }
-        #metode_pembayaran section {
-            padding: 0px;
+        #metode_pembayaran {
+            width: 300px;
         }
         #soon {
             color: blue;
@@ -58,10 +67,15 @@
     />
 </head>
 <body>
+
+</body>
+<footer>
     <section id="footer_container">
         <div class="footer_sec">
-            <article class="logo"></article>
-            <article class="alamat">
+            <article id="logo">
+                <img src="https://magang.luarsekolah.com/assets-front/images/logobb.svg" alt="belajarbekerja_logo">
+            </article>
+            <article id="alamat">
                 Headquarter
                 <br>
                 Centennial Tower Level 29, Jl Jend Gatot Subroto No.27, Karet Semanggi, Setiabudi Daerah Khusus Ibukota Jakarta 12950
@@ -82,7 +96,7 @@
                     </div>
                 </div>
             </address>
-            <article class="jam_pelayanan">
+            <article id="jam_pelayanan">
                 Jam pelayanan konsumen (09:00 - 17:00 WIB)
             </article>
         </div>
@@ -119,37 +133,59 @@
         </div>
         <div class="footer_sec" id="media_sosial">
             <h3 class="judul_produk">Media Sosial</h3>
-            <section id="instagram">
+            <article id="instagram">
                 <i class="ri-instagram-line"></i>
                 <a href="https://www.instagram.com/luarsekolah/">Instagram</a>
-            </section>
-            <section id="twitter">
+            </article>
+            <article id="twitter">
                 <i class="ri-twitter-x-line"></i>
                 <a href="https://x.com/i/flow/login?redirect_after_login=%2Fluarsekolah">X / Twitter</a>
-            </section>
-            <section id="linkedin">
+            </article>
+            <article id="linkedin">
                 <i class="ri-linkedin-line"></i>
                 <a href="https://www.linkedin.com/company/luarsekolah-com">LinkedIn</a>
-            </section>
-            <section id="youtube">
+            </article>
+            <article id="youtube">
                 <i class="ri-youtube-line"></i>
                 <a href="https://www.youtube.com/@luarsekolah">
                     Youtube</a>
-            </section>
+            </article>
         </div>
         <div class="footer_sec" id="metode_pembayaran">
             <h3 class="judul_produk">metode pembayaran</h3>
-            <section id="partner">
+            <article id="partner">
                 <p>Partner</p>
-            </section>
+                <img src="https://magang.luarsekolah.com/assets-front/images/icons/midtransfoot.svg" alt="midtrans_logo">
+            </article>
+            <article id="kartu_kredit">
+                <p>Kartu Kredit</p>
+                <img src="https://magang.luarsekolah.com/assets-front/images/icons/visafoot.svg" alt="visa_logo">
+                <img src="https://magang.luarsekolah.com/assets-front/images/icons/mastercardfoot.svg" alt="mastercard_logo">
+            </article>
+            <article id="bank_transfer">
+                <p>Bank Transfer</p>
+                <img src="https://magang.luarsekolah.com/assets-front/images/icons/bcafoot.svg" alt="bca_logo">
+                <img src="https://magang.luarsekolah.com/assets-front/images/icons/bnifoot.svg" alt="bni_logo">
+                <img src="https://magang.luarsekolah.com/assets-front/images/icons/brifoot.svg" alt="bri_logo">
+                <img src="https://magang.luarsekolah.com/assets-front/images/icons/gopayfoot.svg" alt="gopay_logo">
+                <img src="https://magang.luarsekolah.com/assets-front/images/icons/jeniusfoot.svg" alt="jenius_logo">
+                <img src="https://magang.luarsekolah.com/assets-front/images/icons/lainnyafoot.svg" alt="lainnya">
+            </article>
+            <article id="qris">
+                <p>QRIS</p>
+                <img src="https://magang.luarsekolah.com/assets-front/images/icons/qrisfoot.svg" alt="Qris_logo">
+            </article>
         </div>
     </section>
-    <section>
+
+    <div style="width: 100%; height: 0px; border: 1px #4C4F50 dotted"></div>
+
+    <section id="copyright">
         <p>
             &copy; Belajar Bekerja. All rights reserved.
             <br>
             Belajar Bekerja merupakan program untuk  mempersiapkan individu menjadi lebih siap secara profesional. Dimana peserta dapat mengerjakan kasus nyata yang terjadi di dunia industri dengan memanfaatkan pemahaman digital transformasi serta teknologi Kecerdasan Buatan (AI) yang langsung didampingi oleh praktisi berpengalaman. Pada program ini semua orang memiliki kesempatan untuk berpengalaman di industri!
         </p>
     </section>
-</body>
+</footer>
 </html>
