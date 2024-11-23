@@ -1,0 +1,62 @@
+footer {
+    background-color: #FFFCEF;
+    font-size: 14px;
+}
+
+footer section {
+    padding: 60px;
+}
+
+#footer_container {
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 40px; 
+    display: flex;
+}
+
+footer article {
+    margin: 24px 0px;
+}
+
+.contact {
+    display: flex;
+}
+
+footer i {
+    /* font-size: 48px; */
+    justify-content: center;
+    align-items: center;
+    margin: 20px 12px 8px 0px;
+}
+
+footer a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    font-size: 14px;
+    font-style: normal;
+}
+.judul_produk {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#alamat {
+    width: 300px;
+}
+#media_sosial i {
+    font-size: 16px;
+}
+#media_sosial article {
+    padding: 8px 0px;
+}
+#metode_pembayaran {
+    width: 300px;
+}
+#soon {
+    color: blue;
+}
