@@ -6,6 +6,9 @@
 * {
     font-family: 'Poppins';
     font-weight: 400;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -13,6 +16,10 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
 }
 
 header img {
@@ -33,11 +40,11 @@ header img {
 #pc-navbar {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 15px;
     align-items: center;
 }
 
-li {
+header li {
     list-style-type: none;
     padding: 10px;
     border-radius: 8px;
@@ -55,11 +62,12 @@ li {
     gap: 2px;
 }
 
-#search-border {
+header .navbar .search-container #search-border {
     display: flex;
     border: 2px solid lightgray;
     border-radius: 10px;
     padding: 7px;
+    margin-right: 30px;
 }
 
 #searchBar {
@@ -72,7 +80,7 @@ li {
     outline: none;
 }
 
-.icon {
+header .icon {
     padding-right: 8px;
     font-size: 16px;
     color: #00CC99;
