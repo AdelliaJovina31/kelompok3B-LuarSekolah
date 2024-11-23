@@ -4,30 +4,51 @@ footer {
 }
 
 footer section {
-    padding: 60px;
+    padding: 35px 80px;
 }
 
-#footer_container {
-    flex-direction: row; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 40px; 
+#footer-content, #right-content, #produk-perusahaan {
     display: flex;
+    flex-direction: row; 
+    gap:80px;
+
+
+}
+
+#produk-medsos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 footer article {
     margin: 24px 0px;
 }
 
-.contact {
+#footer-content {
     display: flex;
+    flex-direction: row;
 }
 
-footer i {
-    /* font-size: 48px; */
-    justify-content: center;
+address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.contact {
+    display: flex;
     align-items: center;
-    margin: 20px 12px 8px 0px;
+}
+
+#whatsapp i, #email i {
+    justify-content: center;
+    margin: 0 12px;
+}
+
+#instagram i, #twitter i, #linkedin i, #youtube i {
+    margin-right: 10px;
 }
 
 footer a {
@@ -40,23 +61,64 @@ footer p {
     font-size: 14px;
     font-style: normal;
 }
+
 .judul_produk {
     font-size: 16px;
     text-transform: capitalize;
     font-weight: bold;
 }
+
+#produk, #perusahaan {
+    width: 175px;
+}
+
+#produk-lists, #perusahaan-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
 #alamat {
     width: 300px;
+    margin: 0;
 }
+
+#media_sosial div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 30px;
+    align-content: center;
+}
+
 #media_sosial i {
     font-size: 16px;
+    display: flex;
+    align-items: center;
 }
+
 #media_sosial article {
-    padding: 8px 0px;
+    align-content: center;
+    margin: 10px 0px;
 }
+
 #metode_pembayaran {
     width: 300px;
 }
+
+#bank_transfer {
+    display: flex;
+    flex-direction: column;
+}
+
 #soon {
     color: blue;
+}
+
+#copyright {
+    padding: 20px 0;
+}
+
+#copyright p {
+    text-align: center;
 }
