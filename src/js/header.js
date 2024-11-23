@@ -43,8 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const searchBar = document.getElementById('searchBar');
-    const newsList = document.querySelector('.news-list');
-    const newsItems = newsList.getElementsByClassName('news');
 
     searchBar.addEventListener('input', function() {
         const keyword = searchBar.value.toLocaleLowerCase();
