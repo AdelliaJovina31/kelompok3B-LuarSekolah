@@ -13,6 +13,33 @@
         article {
             margin: 30px 0 60px 0;
         }
+
+        .iframe-container {
+          position: relative; /* Create a stacking context */
+          width: 1200px; /* Match iframe width */
+          height: 600px; /* Match iframe height */
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        .iframe-content {
+          position: relative;
+          z-index: 1; /* Content stays under the shadow overlay */
+          width: 100%;
+          height: 100%;
+          border: none;
+        }
+
+        .shadow-overlay {
+          position: absolute;
+          z-index: 2; /* Ensure this is above the iframe content */
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          pointer-events: none; /* Allow interaction with iframe */
+          box-shadow: inset 0 -60px 14px -14px rgba(224, 224, 224, 0.829);
+        }
     </style>
 
     <title>Document</title>
@@ -24,6 +51,8 @@
             align-items: center;
             text-align: center;
             ">
+
+            <!--selamat datang section-->
             <article>
                 <h1 style="
                 text-transform: capitalize;
@@ -55,6 +84,8 @@
                     video
                 </video>
             </article>
+
+            <!--mari berdiskusi section-->
             <article>
                 <h2 style="
                 text-transform: capitalize;
@@ -63,21 +94,24 @@
                 ">
                     mari diskusi bersama kami
                 </h2>
-                <div>
-                    <iframe src="komunitas.html" 
-                    height="600" width="1300" 
-                    title="Iframe page diskusi" 
-                    frameborder="0" 
-                    style="
-                    box-shadow: inset 0 -60px 14px -14px rgba(228, 228, 228, 0.39);
-                    ">
-                        iframe page diskusi
+                <!--iframe-->
+                <div class="iframe-container">
+                    <iframe
+                      src="komunitas.html"
+                      height="1200"
+                      width="600"
+                      title="Iframe page diskusi"
+                      frameborder="0"
+                      class="iframe-content">
                     </iframe>
+                    <!-- Box shadow overlay -->
+                    <div class="shadow-overlay"></div>
+                    <a href="#" style="margin-bottom: 10px; color: black; position: relative; bottom: 40px; z-index: 5;">  
+                        Lihat Lebih Banyak
+                    </a>
                 </div>
-                <a href="#"> 
-                    Lihat Lebih Banyak
-                </a>
             </article>
+
         </section>
     </main>
 </body>
