@@ -9,6 +9,8 @@
 
 * {
     font-family: 'Inter';
+    margin: 0;
+    top: 0;
 }
 
 .article-header {
@@ -65,10 +67,14 @@
     border-radius: 30px;
 }
 
-.mari-bergabung-section h4, .mari-bergabung-section h5, #leaderboard h4{
+.mari-bergabung-section h4, .mari-bergabung-section h5 {
     font-size: 22px;
     font-weight: var(--semibold);
     margin: 18px 0;
+}
+
+#leaderboard h4 {
+    margin-top: 50px;
 }
 
 .mari-bergabung-section h6 span {
@@ -174,8 +180,71 @@
     background-color: black;
     width: 166px;
     padding: 10px 20px;
+    margin-bottom: 50px;
 }
 
 #leaderboard h4 {
     text-align: center;
+}
+
+#bagde {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+#badge-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bagde h4 {
+    font-size: 20px;
+    font-weight: var(--semibold);
+}
+
+#contributor, #collaborator, #expert {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 24px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    width: 25%;
+    height: auto;
+}
+
+.badge-content-header h5 {
+    font-size: 18px;
+    font-weight: var(--semibold);
+}
+
+#badge-content div div img {
+    width: 64px;
+    height: 64px;
+    border-radius: 38.4px;
+}
+
+.badge-content-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.badge-content-body {
+    font-size: 14px;
+    color: var(--grey-text);
+}
+
+.badge-content-body p {
+    font-weight: var(--semibold);
+    margin: 2px 0;
+}
+
+.badge-content-body ul li {
+    margin: 2px 0;
 }
