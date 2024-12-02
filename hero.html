@@ -10,13 +10,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            border: 0;
+        }
+
         article {
-            margin: 30px 0 60px 0;
+            padding: 40px 100px;
+        }
+
+        h2 {
+            text-transform: capitalize;
+            font-size: 32px;
+            font-weight: 500;
         }
 
         p {
             font-size: 18px;
             color: rgb(87, 86, 86);
+            font-weight: 400;
         }
 
         .iframe-container {
@@ -35,15 +47,20 @@
           border: none;
         }
 
-        .shadow-overlay {
-          position: absolute;
-          z-index: 2; /* Ensure this is above the iframe content */
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          pointer-events: none; /* Allow interaction with iframe */
-          box-shadow: inset 0 -60px 14px -14px rgba(224, 224, 224, 0.829);
+        .gabung span {
+            margin: 8px;
+        }
+
+        .gabung img {
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            margin: -10px;
+        }
+
+        .gabung a {
+            text-decoration: none;
+            color: white;
         }
     </style>
 
@@ -58,30 +75,44 @@
             ">
 
             <!--selamat datang section-->
-            <article>
+            <article id="selamat_datang" style="
+            background-color: #FFFDFB;
+            ">
                 <h1 style="
                 text-transform: capitalize;
                 font-size: 48px;
-                font-weight: 400;
+                font-weight: 500;
                 ">
-                    selamat datang
-                    <br>
-                    komunitas luar sekolah
+                    komunitas <span style="color: #60debd;">luar sekolah</span> 
                 </h1>
                 <p>
-                    Tempat bagi SobatLS untuk mendalami Luarsekolah, berinteraksi, dan berdiskusi. Mari bersama memberdayakan dan menghubungkan antusias pendidikan dalam pertukaran pengetahuan, dukungan, dan kolaborasi, menciptakan perubahan positif. 
+                    Tempat bagi SobatLS untuk mendalami Luarsekolah, berinteraksi, dan berdiskusi. Mari bersama memberdayakan dan menghubungkan antusias pendidikan dalam pertukaran pengetahuan, dukungan, dan kolaborasi. Lebih dari <span style="color: black;">1,000,000</span> anggota telah bergabung untuk berbagi ilmu, berdiskusi, dan menciptakan perubahan positif. 
                     <br>
                     #Sampaijadibisa
                 </p>
-                <div>
-                    <a href="#">
-                        <button>gabung sekarang</button>
-                    </a>
-                    <i class="ri-shake-hands-fill"></i>
+                <div class="gabung">
+                    <span style="background-color: #1BC89D; 
+                    color: white;
+                    padding: 8px 12px;
+                    border-radius: 6px;
+                    width: 200px;
+                    "> 
+                        <a href="mari_poin.html">Gabung Sekarang</a> 
+                    </span>
+                    <span>
+                        <img src="src/img-1.jpg" alt="">
+                        <img src="src/img-1.jpg" alt="">
+                        <img src="src/img-1.jpg" alt="">
+                    </span>
+                    <span>15,000+</span>
                 </div>
+                <h2 style="margin: 70px 0 0px 0;">
+                    Intip sekilas komunitas kami?
+                </h2>
                 <video
+                style="border-radius: 18px;"
                 width="500px" 
-                height="400px" 
+                height="auto" 
                 controls="controls">
                     <source src="https://videos.pexels.com/video-files/29454566/12679468_2560_1440_60fps.mp4" type="video/mp4">
                     video
@@ -89,16 +120,12 @@
             </article>
 
             <!--mari berdiskusi section-->
-            <article>
-                <h2 style="
-                text-transform: capitalize;
-                font-size: 32px;
-                font-weight: 400;
-                ">
+            <article style="background-color: #D4FFF4;">
+                <h2>
                     mari diskusi bersama kami
                 </h2>
                 <p>
-                    Saat ini, ada <b style="color: black;">500+</b> diskusi aktif dan <b style="color: black;">1,200</b> kommentar terbaru. Bergabunglah dalam diskusi yang menarik perhatian Anda!
+                    Saat ini, ada <span style="color: black;">500+</span> diskusi aktif dan <span style="color: black;">1,200</span> kommentar terbaru. Bergabunglah dalam diskusi yang menarik perhatian Anda!
                 </p>
                 <!--iframe-->
                 <div class="iframe-container">
@@ -110,8 +137,6 @@
                       frameborder="0"
                       class="iframe-content">
                     </iframe>
-                    <!-- Box shadow overlay -->
-                    <div class="shadow-overlay"></div>
                     <a href="#" style="margin-bottom: 10px; color: black; position: relative; bottom: 40px; z-index: 5;">  
                         Lihat Lebih Banyak
                     </a>
