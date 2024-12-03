@@ -31,10 +31,15 @@
     padding: 20px 85px;
 }
 
+#statistik {
+    background-color: var(--secondary-color);
+}
+
 #statistik-section-header {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-top: 50px;
 }
 
 #hero article h1, #hero article h2 {
