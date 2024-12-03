@@ -1,0 +1,155 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+}
+
+#hero {
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+article {
+    padding: 50px 100px;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(87, 86, 86);
+    font-weight: 400;
+}
+
+.gabung span {
+    margin: 12px;
+    color: black;
+    border-radius: 6px;
+}
+
+.gabung span img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin: -10px;
+}
+
+.gabung .link {
+    background-color: #1BC89D;
+    padding: 6px 8px;
+}
+
+.gabung .link a {
+    text-decoration: none;
+    color: white;
+}
+
+#selamat_datang video {
+    width: 700px;
+    height: auto;
+    border-radius: 18px;
+}
+
+#sebaran_alumni img {
+    width: 800px;
+    margin: 40px 0;
+}
+
+#vid_title {
+    margin: 40px 0 6px 0;
+}
+
+/*adaptif*/
+@media screen and (max-width: 950px) {
+    article {
+        padding: 40px 80px;
+    }
+    h1 {
+        margin: 32px 0;
+    }
+    #selamat_datang video {
+        width: 600px;
+    }
+    #sebaran_alumni img {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #selamat_datang video {
+        width: 500px;
+    }
+    #sebaran_alumni img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    article {
+        padding: 30px 24px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .gabung span {
+        margin: 8px;
+    }
+    .gabung .link {
+        font-size: 14px;
+    }
+    #selamat_datang video {
+        width: 350px;
+    }
+    #sebaran_alumni img {
+        width: 400px;
+    }
+    #vid_title {
+        margin: 24px 0 6px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #selamat_datang video {
+        width: 300px;
+    }
+    #sebaran_alumni img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1{
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .gabung {
+        margin: 20px 0 0 0;
+    }
+    .gabung .link {
+        font-size: 12px;
+    }
+    .gabung span {
+        font-size: 12px;
+    }
+    #selamat_datang video {
+        width: 250px;
+    }
+    #sebaran_alumni img {
+        width: 250px;
+    }
+}
