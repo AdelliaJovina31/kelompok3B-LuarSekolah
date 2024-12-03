@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --primary-color: #1BC89D;
+    --grey-text: #6D7280;
+    --semibold: 600;
+}
+
+* {
+    font-family: 'Inter';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#dynamic-text {
+    color: lightgreen;
+}
+
+#hero .info h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero .info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#hero .info p {
+    font-size: 1.2rem;
+    max-width: 50%;
+}
+
+#hero .info a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    padding: 0.5em 1em;
+    margin-top: 2rem;
+    color: #ee6c09;
+    transition: background-color 0.3s ease;
+}
+
+#hero .info a:hover {
+    background-color: lightgreen;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}
