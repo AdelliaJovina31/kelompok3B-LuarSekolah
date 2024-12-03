@@ -10,7 +10,7 @@
 }
 
 article {
-    padding: 40px 100px;
+    padding: 50px 100px;
 }
 
 h1 {
@@ -62,23 +62,41 @@ p {
 
 #sebaran_alumni img {
     width: 800px;
+    margin: 40px 0;
 }
 
-@media screen and (max-width: 800px) {
+#vid_title {
+    margin: 40px 0 6px 0;
+}
+
+/*adaptif*/
+@media screen and (max-width: 950px) {
     article {
         padding: 40px 80px;
     }
-    #sebaran_alumni img {
-        width: 500px;
+    h1 {
+        margin: 32px 0;
     }
     #selamat_datang video {
         width: 600px;
     }
+    #sebaran_alumni img {
+        width: 600px;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
+    #selamat_datang video {
+        width: 500px;
+    }
+    #sebaran_alumni img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 620px) {
     article {
-        padding: 20px 40px;
+        padding: 30px 24px;
     }
     p {
         font-size: 14px;
@@ -89,10 +107,49 @@ p {
     .gabung .link {
         font-size: 14px;
     }
-    #sebaran_alumni img {
-        width: 300px;
+    #selamat_datang video {
+        width: 350px;
     }
+    #sebaran_alumni img {
+        width: 400px;
+    }
+    #vid_title {
+        margin: 24px 0 6px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
     #selamat_datang video {
         width: 300px;
+    }
+    #sebaran_alumni img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1{
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .gabung {
+        margin: 20px 0 0 0;
+    }
+    .gabung .link {
+        font-size: 12px;
+    }
+    .gabung span {
+        font-size: 12px;
+    }
+    #selamat_datang video {
+        width: 250px;
+    }
+    #sebaran_alumni img {
+        width: 250px;
     }
 }
