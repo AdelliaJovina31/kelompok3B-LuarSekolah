@@ -76,10 +76,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 10px;
 }
 
@@ -89,6 +85,7 @@
 
 .portfolio-item img {
   height: 228px;
+  width: 100%;
   display: block;
   border-radius: 25px;
   object-fit: cover;
