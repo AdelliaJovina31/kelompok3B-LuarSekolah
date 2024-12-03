@@ -1,0 +1,98 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+}
+
+#hero {
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+article {
+    padding: 40px 100px;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(87, 86, 86);
+    font-weight: 400;
+}
+
+.gabung span {
+    margin: 12px;
+    color: black;
+    border-radius: 6px;
+}
+
+.gabung span img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin: -10px;
+}
+
+.gabung .link {
+    background-color: #1BC89D;
+    padding: 6px 8px;
+}
+
+.gabung .link a {
+    text-decoration: none;
+    color: white;
+}
+
+#selamat_datang video {
+    width: 700px;
+    height: auto;
+    border-radius: 18px;
+}
+
+#sebaran_alumni img {
+    width: 800px;
+}
+
+@media screen and (max-width: 800px) {
+    article {
+        padding: 40px 80px;
+    }
+    #sebaran_alumni img {
+        width: 500px;
+    }
+    #selamat_datang video {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    article {
+        padding: 20px 40px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .gabung span {
+        margin: 8px;
+    }
+    .gabung .link {
+        font-size: 14px;
+    }
+    #sebaran_alumni img {
+        width: 300px;
+    }
+    #selamat_datang video {
+        width: 300px;
+    }
+}
