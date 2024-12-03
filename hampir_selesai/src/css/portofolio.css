@@ -135,6 +135,10 @@
   color: #2ecc71;
 }
 
+.icons a{
+  text-decoration: none;
+}
+
 /* Responsivitas */
 @media (max-width: 768px) {
   .portfolio-grid {
