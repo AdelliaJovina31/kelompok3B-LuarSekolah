@@ -62,7 +62,7 @@
                 <p>Digital Marketing</p>
               </div>
             </div>
-            <p class="testimonial-text">"Over the past four weeks, I, together with the amazing team from PBI LuarSekolah, have successfully completed the About Us page revamp project and created a new page for Our Activities. As part of the Digital Marketing division, my roles included: ✅ Researching target audiences & industry trends ✅ Competitor and publication section analysis ✅ Structuring content sections ✅ Conducting SEO keyword..."</p>
+            <p class="testimonial-text">"Over the past four weeks, I, together with the amazing team from PBI Luarsekolah, have successfully completed the About Us page revamp project and created a new page for Our Activities. As part of the Digital Marketing division, my roles included: ✅ Researching target audiences & industry trends ✅ Competitor and publication section analysis ✅ Structuring content sections ✅ Conducting SEO keyword..."</p>
           </div>
         </div>
         <button class="nav-btn right-btn"><i class="fa-solid fa-chevron-right"></i></button>

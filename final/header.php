@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LuarSekolah</title>
+    <title>Luarsekolah</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="src/images/favicon.ico">
@@ -35,12 +35,12 @@
 </head>
 <body>
     <header>
-        <img src="src/images/logo-master.png" alt="LuarSekolah Logo" />
+        <img src="src/images/logo-master.png" alt="Luarsekolah Logo" />
         <nav class="navbar">
             <!-- Navbar untuk PC -->
             <ul id="pc-navbar">
-                <li class="navbar-menu"><a href="https://luarsekolah.com/">Home</a></li>
-                <li class="navbar-menu"><a href="https://luarsekolah.com/tentang-kami">Tentang Kami</a></li>
+                <li class="navbar-menu"><a href="https://Luarsekolah.com/">Home</a></li>
+                <li class="navbar-menu"><a href="https://Luarsekolah.com/tentang-kami">Tentang Kami</a></li>
                 <li class="navbar-menu"><a href="index.php?page=komunitas">Komunitas</a></li>
                 <li class="navbar-menu"><a href="index.php?page=showcase">Showcase</a>
                 <li class="navbar-menu"><a href="https://api.whatsapp.com/send?phone=628112021444&text=Halo%20Luarsekolah">Contact</a></li>
@@ -54,8 +54,8 @@
             <div id="not-pc-navbar">
                 <ul class="sidebar">
                     <li id="close-icon"><i class="fa-solid fa-xmark"></i></li>
-                    <li class="navbar-menu"><a href="https://luarsekolah.com/">Home</a></li>
-                    <li class="navbar-menu"><a href="https://luarsekolah.com/tentang-kami">Tentang Kami</a></li>
+                    <li class="navbar-menu"><a href="https://Luarsekolah.com/">Home</a></li>
+                    <li class="navbar-menu"><a href="https://Luarsekolah.com/tentang-kami">Tentang Kami</a></li>
                     <li class="navbar-menu"><a href="index.php?page=komunitas">Komunitas</a></li>
                     <li class="navbar-menu"><a href="index.php?page=showcase">Showcase</a>
                     <li class="navbar-menu"><a href="https://api.whatsapp.com/send?phone=628112021444&text=Halo%20Luarsekolah">Contact</a></li>
