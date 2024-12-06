@@ -5,7 +5,7 @@
             <article>
                 <section id="opening-section">
                     <div id="opening-section-content">
-                        <h1>Komunitas LuarSekolah</h1>
+                        <h1>Komunitas Luarsekolah</h1>
                         <p>
                             Tempat bagi SobatLS untuk mendalami Luarsekolah, berintersksi, dan berdiskusi. Mari bersama memberdaya dan menghunbungkan antusias pendidikan dalam pertukaran pengetahuan, dukunagan, dan kolaborasi,Lebih dari 1,000,000 anggota telah bergabung untuk berbagi ilmu, berdiskusi, dan menciptakan perubahan positif. 
                             <br>#Sampaijadibisa

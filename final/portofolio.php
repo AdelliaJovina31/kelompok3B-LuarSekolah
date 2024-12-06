@@ -1,6 +1,6 @@
 <section class="portofolio-section">
   <h1>Our Portofolio</h1>
-  <p id="header-description">Berikut beberapa proyek yang telah dibuat para peserta LuarSekolah.</p>
+  <p id="header-description">Berikut beberapa proyek yang telah dibuat para peserta Luarsekolah.</p>
   <div class="filters">
     <button class="filter-btn active" data-filter="all">Semua</button>
     <button class="filter-btn" data-filter="web-developer">Web Developer</button>
@@ -90,7 +90,7 @@
         <p>Nazhila Natsa | <span>Content Writer</span></p>
         <div class="icons">
           <span>
-            <a target="_blank" href="https://luarsekolah.com/article/6-ide-bisnis-kreatif-menambah-cuan-mahasiswa-modal-seadanya">
+            <a target="_blank" href="https://Luarsekolah.com/article/6-ide-bisnis-kreatif-menambah-cuan-mahasiswa-modal-seadanya">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#1e88e5" d="M38.59,39c-0.535,0.93-0.298,1.68-1.195,2.197C36.498,41.715,35.465,42,34.39,42H13.61 c-1.074,0-2.106-0.285-3.004-0.802C9.708,40.681,9.945,39.93,9.41,39l7.67-9h13.84L38.59,39z"></path>
                 <path
@@ -126,7 +126,7 @@
         <p>Salma Aulia N. | <span>Content Writer</span></p>
         <div class="icons">
           <span>
-            <a target="_blank" href="https://luarsekolah.com/article/5-hobi-yang-bisa-menghasilkan-uang-ada-hobimu">
+            <a target="_blank" href="https://Luarsekolah.com/article/5-hobi-yang-bisa-menghasilkan-uang-ada-hobimu">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#1e88e5" d="M38.59,39c-0.535,0.93-0.298,1.68-1.195,2.197C36.498,41.715,35.465,42,34.39,42H13.61 c-1.074,0-2.106-0.285-3.004-0.802C9.708,40.681,9.945,39.93,9.41,39l7.67-9h13.84L38.59,39z"></path>
                 <path
@@ -198,7 +198,7 @@
         <p>Nabila Brenda | <span>Graphic Designer</span></p>
         <div class="icons">
           <span>
-            <a target="_blank" href="https://www.threads.net/@luarsekolah/post/C_SgrxiT2xX?xmt=AQGza0cB1ZAbTEV4m3Vn-502uIzzzGa__OrNhwZTpwKwSw">
+            <a target="_blank" href="https://www.threads.net/@Luarsekolah/post/C_SgrxiT2xX?xmt=AQGza0cB1ZAbTEV4m3Vn-502uIzzzGa__OrNhwZTpwKwSw">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#1e88e5" d="M38.59,39c-0.535,0.93-0.298,1.68-1.195,2.197C36.498,41.715,35.465,42,34.39,42H13.61 c-1.074,0-2.106-0.285-3.004-0.802C9.708,40.681,9.945,39.93,9.41,39l7.67-9h13.84L38.59,39z"></path>
                 <path
@@ -270,7 +270,7 @@
         <p>Muhammad Ismail | <span>Content Writing</span></p>
         <div class="icons">
           <span>
-            <a href="https://luarsekolah.com/article/jadi-social-media-specialist-beginilah-kerjanya" target="_blank">
+            <a href="https://Luarsekolah.com/article/jadi-social-media-specialist-beginilah-kerjanya" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#1e88e5" d="M38.59,39c-0.535,0.93-0.298,1.68-1.195,2.197C36.498,41.715,35.465,42,34.39,42H13.61 c-1.074,0-2.106-0.285-3.004-0.802C9.708,40.681,9.945,39.93,9.41,39l7.67-9h13.84L38.59,39z"></path>
                 <path fill="#fbc02d" d="M27.463,6.999c1.073-0.002,2.104-0.716,3.001-0.198c0.897,0.519,1.66,1.27,2.197,2.201l10.39,17.996 c0.537,0.93,0.807,1.967,0.808,3.002c0.001,1.037-1.267,2.073-1.806,3.001l-11.127-3.005l-6.924-11.993L27.463,6.999z"></path>
@@ -335,7 +335,7 @@
         <p>Putrika Salsabila | <span>Grafhic Designer</span></p>
         <div class="icons">
           <span>
-            <a target="_blank" href="https://www.threads.net/@luarsekolah/post/C_Sguiuzu2G?xmt=AQGza0cB1ZAbTEV4m3Vn-502uIzzzGa__OrNhwZTpwKwSw">
+            <a target="_blank" href="https://www.threads.net/@Luarsekolah/post/C_Sguiuzu2G?xmt=AQGza0cB1ZAbTEV4m3Vn-502uIzzzGa__OrNhwZTpwKwSw">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#1e88e5" d="M38.59,39c-0.535,0.93-0.298,1.68-1.195,2.197C36.498,41.715,35.465,42,34.39,42H13.61 c-1.074,0-2.106-0.285-3.004-0.802C9.708,40.681,9.945,39.93,9.41,39l7.67-9h13.84L38.59,39z"></path>
                 <path
@@ -372,7 +372,7 @@
         <p>Imam Aqil | <span>Grafhic Designer</span></p>
         <div class="icons">
           <span>
-            <a target="_blank" href="https://www.threads.net/@luarsekolah/post/C_Sgn1GzwOu?xmt=AQGza0cB1ZAbTEV4m3Vn-502uIzzzGa__OrNhwZTpwKwSw">
+            <a target="_blank" href="https://www.threads.net/@Luarsekolah/post/C_Sgn1GzwOu?xmt=AQGza0cB1ZAbTEV4m3Vn-502uIzzzGa__OrNhwZTpwKwSw">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#1e88e5" d="M38.59,39c-0.535,0.93-0.298,1.68-1.195,2.197C36.498,41.715,35.465,42,34.39,42H13.61 c-1.074,0-2.106-0.285-3.004-0.802C9.708,40.681,9.945,39.93,9.41,39l7.67-9h13.84L38.59,39z"></path>
                 <path

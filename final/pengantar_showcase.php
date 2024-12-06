@@ -1,9 +1,9 @@
     <main>   
         <section class="showcase-section">
             <div class="showcase-header">
-                <h1 class="showcase-section-title">Karya - Karya Terbaik Dari Peserta LuarSekolah</h1>
+                <h1 class="showcase-section-title">Karya - Karya Terbaik Dari Peserta Luarsekolah</h1>
                 <p class="showcase-section-description">
-                    Lihat dan apresiasi hasil karya peserta LuarSekolah! Dukung karya favoritmu dengan menekan "Like".
+                    Lihat dan apresiasi hasil karya peserta Luarsekolah! Dukung karya favoritmu dengan menekan "Like".
                 </p>
             </div>
 

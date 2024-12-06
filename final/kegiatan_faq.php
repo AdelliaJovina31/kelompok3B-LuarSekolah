@@ -46,7 +46,7 @@
       <div class="faq-container">
           <div class="faq-left">
               <h2>FaQ Komunitas</h2>
-              <span>LuarSekolah</span>
+              <span>Luarsekolah</span>
               <p class="section-description">Temukan jawaban atas pertanyaan-pertanyaan Anda di sini</p>
           </div>
           <div class="faq-right">
