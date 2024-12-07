@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --primary-color: #1BC89D;
+    --secondary-color: #D4FFF4;
+    --grey-text: #6D7280;
+    --semibold: 600;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+#opening-section, #opening-section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#opening-section {
+    padding: 20px 85px;
+}
+
+#opening-section-content p {
+    color: rgba(109, 114, 128, 0.5)
+}
+
+#opening-section-content span {
+    color: black;
+}
+
+.circle-container {
+    display: flex;
+    position: relative; /* Agar .circle bisa diatur posisinya */
+    width: 90px;
+    height: 40px;
+}
+
+.circle {
+    position: absolute; 
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-color: transparent;
+    border-radius: 50%;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.circle:nth-child(1) {
+    right: 0;
+    z-index: 3;
+}
+
+.circle:nth-child(2) {
+    right: 25px;
+    z-index: 2;
+}
+
+.circle:nth-child(3) {
+    right: 50px;
+    z-index: 1;
+}
+
+#statistik {
+    background-color: var(--secondary-color);
+    padding-bottom: 50px;
+}
+
+#statistik-section-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 50px;
+}
+
+#hero article h1, #hero article h2 {
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#statistik-image {
+    width: 80%;
+    margin-top: 50px;
+}
+
+#video-komunitas {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+#hero p {
+    font-size: 18px;
+    color: var(--grey-text);
+    font-weight: var(--semibold);
+    margin: 0;
+}
+
+#hero button {
+    background-color: var(--primary-color);
+    padding: 10px 10px;
+    border-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: var(--semibold);
+    font-size: 14px;
+    width: 161px;
+}
+
+#opening-section-content span {
+    color: var(--primary-color);
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row !important;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.button-row p {
+    color: black !important;
+}
+
+.iframe-container {
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.iframe-container a {
+    margin-bottom: 10px;
+    color: black;
+    position: relative;
+    bottom: 40px;
+    z-index: 5;
+}
+
+.iframe-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.shadow-overlay {
+  position: absolute;
+  z-index: 2; /* Ensure this is above the iframe content */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Allow interaction with iframe */
+  box-shadow: inset 0 -60px 14px -14px rgba(224, 224, 224, 0.829);
+}
+
+@media (max-width: 650px) {
+    #video-komunitas h2 {
+        width: 80%;
+    }
+
+    #video-komunitas iframe {
+        width: 90%;
+    }
+}
