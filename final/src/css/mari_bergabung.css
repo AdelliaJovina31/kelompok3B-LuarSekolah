@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --primary-color: #1BC89D;
+    --grey-text: #6D7280;
+    --semibold: 600;
+}
+
+.article-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.article-header h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.article-header h3 {
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: var(--semibold);
+    color: var(--grey-text);
+}
+
+#mari-bergabung {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#mari-bergabung, #poin-badge {
+    padding: 50px 85px;
+}
+
+#mari-bergabung-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#mari-bergabung section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.mari-bergabung-image {
+    height: 425px;
+    width: 610px;
+    border-radius: 20px;
+}
+
+.mari-bergabung-section h4, .mari-bergabung-section h5 {
+    font-size: 22px;
+    font-weight: var(--semibold);
+    /* margin: 18px 0; */
+}
+
+#section2 .mari-bergabung-image {
+    border: 2px solid var(--primary-color);
+}
+
+#leaderboard h4 {
+    margin-top: 50px;
+}
+
+.mari-bergabung-section {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.mari-bergabung-section h6 span {
+    color: var(--primary-color);
+}
+
+.mari-bergabung-section p, .mari-bergabung-section ul li {
+    font-size: 18px;
+    color: var(--grey-text);
+    font-weight: var(--semibold);
+    margin: 0;
+}
+
+.mari-bergabung-section ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.mari-bergabung-section ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.mari-bergabung-section ul li img {
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+    justify-content: cover;
+}
+
+.mari-bergabung-button {
+    background-color: var(--primary-color);
+    padding: 10px 10px;
+    border-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: var(--semibold);
+    font-size: 14px;
+    width: 161px;
+}
+
+.mari-bergabung-button a {
+    text-decoration: none;
+    color: white;
+}
+
+#poin-badge {
+    background-color: var(--primary-color);
+}
+
+#poin-badge-header h3 {
+    color: white;
+}
+
+#leaderboard {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.leaderboard-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 25px;
+    border-radius: 30px;
+    align-items: center;
+    gap: auto;
+}
+
+.nama {
+    margin-left: 20px;
+    width: 45%;
+    font-weight: var(--semibold);
+}
+
+.okupasi {
+    width: 35%;
+}
+
+.jumlah-poin  {
+    width: 30%;
+}
+
+.list img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+#leaderboard-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#leaderboard-button button {
+    font-size: 14px;
+    font-weight: var(--semibold);
+    color: white;
+    border-radius: 100px;
+    border-color: transparent;
+    background-color: black;
+    width: 166px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+#leaderboard h4 {
+    text-align: center;
+}
+
+#bagde {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+#badge-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bagde h4 {
+    font-size: 20px;
+    font-weight: var(--semibold);
+}
+
+#contributor, #collaborator, #expert {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 24px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    width: 25%;
+    height: auto;
+}
+
+.badge-content-header h5 {
+    font-size: 18px;
+    font-weight: var(--semibold);
+}
+
+#badge-content div div img {
+    width: 64px;
+    height: 64px;
+    border-radius: 38.4px;
+}
+
+.badge-content-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.badge-content-body {
+    font-size: 14px;
+    color: var(--grey-text);
+}
+
+.badge-content-body p {
+    font-weight: var(--semibold);
+    margin: 2px 0;
+}
+
+.badge-content-body ul li {
+    margin: 2px 0;
+}
+
+@media (max-width: 1024px) {
+    #mari-bergabung-content section {
+        flex-direction: column;
+    }
+
+    .mari-bergabung-image {
+        width: 100%;
+        height: 100%;
+        order: 2;
+    }
+
+    .mari-bergabung-section {
+        order: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .mari-bergabung-image {
+        width: 100%;
+        height: 100%;
+        order: 2;
+    }
+
+    .mari-bergabung-section {
+        order: 1;
+    }
+}

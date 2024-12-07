@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --primary-color: #1BC89D;
+    --grey-text: #6D7280;
+    --semibold: 600;
+}
+
+footer {
+    font-size: 14px;
+    padding: 20px 50px;
+    background-color: #ECECEC;
+}
+
+#footer_container {
+    padding: 5px 0;
+}
+
+#logo img {
+    width: 161px;
+}
+
+#left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#footer-content, #right-content, #produk-perusahaan {
+    display: flex;
+    flex-direction: row; 
+    gap:75px;
+    font-weight: var(--semibold);
+    font-size: 18px;
+}
+
+#produk-medsos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer article {
+    margin: 24px 0px;
+}
+
+#footer-content {
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.judul_produk {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#produk-lists, #kebijakan {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#deskripsi {
+    width: 100%;
+    margin: 0;
+    font-weight: var(--semibold);
+    font-size: 14px;
+}
+
+#media_sosial {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 30px;
+    align-content: center;
+}
+
+#media_sosial article a img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 24px;
+}
+
+#media_sosial article {
+    align-content: center;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 650px) {
+    #right-content, #produk-perusahaan {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #left-content {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 954px){
+    #footer_container #footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
